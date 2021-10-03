@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 110 LAB2</title>
+    <link rel="icon" type="image/png" href="https://www.thespruceeats.com/thmb/fnF-lIfmbFhvF0JwwSfDbuWuQDM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-90053856-588b7aff5f9b5874ee534b04.jpg"/>
+</head>
+
+<body>
+
+    <header>
+        <h1>1th Session of the ICE-CREAM General Assembly</h1>
+        <h3>10/1/2021</h3>
+        <main itemprop="articleBody">
+            <p>ICE-CREAM General Assembly (ICGA 1) is to decide which <b>flavor of ice-cream</b>
+                is the <strong>BEST</strong>.<br>
+                The assembly is held by <i>International Ice-Cream Committee (IICC)</i>, and there
+                has been over 70 <em>nations</em> all around the world becoming the member of it by 2021.
+        </main>
+    </header>
+
+    <section>
+        <h2>Why is this aseembly held?</h2>
+        <audio controls>
+            <source src="IcecreamTruck.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p>This is a recording of an ice cream truck. 
+            <i>IICC</i> believes that this recording can remind many people of their sweet childhood memories: they rushed to the ice cream truck, 
+            discussing which flavor of ice cream tasted the best.<br>
+            In order to promote the most delicious food in the world, and to "preserve" the rare jubilant moments for human beings, 
+            IICC organized this conference. This is the first ICE-CREAM General Assembly, and 
+            IICC expects that each country can select their favorite ice cream flavor and give this ice cream the largest discount in their country.
+        </p>
+    </section>
+
+    <hr>
+        <h2>Attendance list:</h2>
+        <ul>
+            <li>Afghanistan</li>
+            <li>Albania</li>
+            <li>Algeria</li>
+            <li>Andorra</li>
+            <li>...</li>
+            <li>Yemen</li>
+            <li>Zambia</li>
+            <li>Zimbabwe</li>
+        </ul>
+    </hr>
+
+    <hr>
+        <h2>Agenda of what the meeting will cover:</h2>
+        <input type="checkbox" id="agenda1" name="agenda1" value="agenda1">
+        <label for="agenda1"> Determine which ice cream flavor is the best in the word</label><br>
+        <input type="checkbox" id="agenda2" name="agenda2" value="agenda2">
+        <label for="agenda2"> Rank the ice cream flavor</label><br>
+        <input type="checkbox" id="agenda3" name="agenda3" value="agenda3">
+        <label for="agenda3"> Determine how much discount should the nation give to the best flavor of ice cream</label><br>
+        <input type="checkbox" id="agenda4" name="agenda4" value="agenda4">
+        <label for="agenda4"> EAT ICE CREAM</label><br>
+
+        <h2>Things that were unfinished business from last meeting</h2>
+        <div>
+            <p>Since it is the first meeting, there is no unfinished business. Everything starts new.
+            </p>
+            <p>However, IICC does expect nations can finish all required business in each meeting to ensure that there is nothing left to the next meeting.
+            </p>
+        </div>
+
+        <h2>Things that are new business that need to be talked about</h2>
+        <div>
+        <input type="checkbox" id="new1" name="new1" value="new1">
+        <label for="new1"> Trade of ice cream between nations</label><br>
+        <input type="checkbox" id="new2" name="new2" value="new2">
+        <label for="new2"> New technology for ice cream manufacture</label><br>
+        </div>
+    </hr>
+
+    <hr>
+        <h2>Voting</h2>
+        <p> Based on the voting in ICGA 1, IICC has announced that currently coffee ice cream has become the most popular ice cream in the world. </p>
+        <img src="https://www.simplyrecipes.com/thmb/AHQupLHlJnwzi8yZc8zRnHAdfe4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2007__04__coffee-ice-cream-vertical-00dc174a766a4ff79f443e516e11fcb7.jpg"
+        alt="" width="100" height="150"><br>
+
+        <label for="ice-cream-choice">What is your favorite flavor?</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+        <datalist id="ice-cream-flavors">
+            <option value="Coffee">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Green Tea">
+            <option value="Mango">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist><br>
+
+        <input type="radio" id="html" name="fav_flavor" value="flavor">
+        <label for="flavor">Other</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="top">Choose a ice cream topping:</label>
+        <select name="top" id="top">
+            <option value="Hot Fudge">Hot Fudge</option>
+            <option value="Sprinkles">Sprinkles</option>
+            <option value="Caramel">Caramel</option>
+            <option value="Cookie Dough">Cookie Dough</option>
+            <option value="Oreos">Oreos</option>
+        </select><br>
+
+        <input type="radio" id="html" name="fav_flavor" value="flavor">
+        <label for="flavor">Other</label>
+        <input type="text" id="fname" name="fname"><br>
+    </hr>
+
+    <hr>
+        <h2> Miscellaneous comments / questions / concerns:</h2>
+        <ol>
+            <li>Will nations publish any policy about ice cream?
+            <li>How important is ice cream to human-being?
+            <li>Do you think there should be things like spicy ice cream?
+            <li>What do you know about the history of ice cream?
+        </ol>
+        <textarea id="ice-cream" name="ice-cream" rows="4" cols="50">Please enter your comments / questions / concerns here.
+        </textarea><br>
+        <button type="button">Submit</button>
+    </hr>
+
+    <nav>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=prlBXBS_vPg">Modern Marvels: How Ice Cream is Made (S14, E18) | Full Episode | History</a></li>
+          <li><a href="https://www.youtube.com/watch?v=7gJIyHnD710">7 Easy Homemade Ice Cream Recipes (No Ice Cream Machine)</a></li>
+          <form action="http://www.google.com/search" method="get">
+            <label>Google: <input type="search" name="q"></label> <input type="submit" value="Search...">
+        </form>
+        </ul>
+    </nav>
+
+    <h3>Just a Random Video:</h3>
+    <video width="320" height="240" controls>
+        <source src="randomVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <details>
+        <summary>IICC: Contact us</summary>
+        <p>Email: IICCDoesNotExist@IICC.com</p>
+        <p>Phone: (XXX)XXX-XXXX</p>
+    </details>
+
+    <fieldset>
+        <legend>Arrange a Meeting in IICC</legend>
+        <p><label>Meeting theme: <input type=text name="meeting.label"></label>
+        <p>Meeting time:
+        <input type="date" value="2021-10-01"><br>
+        <button type="button">Submit</button>
+    </fieldset>
+
+    <footer>
+        <span itemprop="author">Hanming Hu</span>,
+        <span itemprop="School">University of California, San Diego</span>,
+        <span itemprop="datePublished">Octobor 1, 2021</span>
+    </footer>
+</body>
+</html>
