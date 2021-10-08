@@ -1,8 +1,44 @@
+/* CSS checklist */
+
+/* Background: apply background styles to your elements */
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+    background-color: rgb(200,200,200); /*rgb color*/
+}
+
+/* Unit: units of measurement for sizing and spacing your elements */
+h1 {
+    font-size: 50pt; /*absolute unit 1*/
+    /*longhand margin*/
+    margin-top: 100px; /*absolute unit 2*/
+    margin-bottom: 1in; /*absolute unit 3*/
+    margin-right: 150px;
+    margin-left: 80px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    /*shorthand margin*/
+    margin: 1em 5ex 2ch 1vw;/* 4 unique relative unit */
+    color: #f6347f; /*hex code color*/
+}
+
+h3 {
+    color: hsl(10, 100%, 64%); /* hue, saturation, lightness, alpha values */
+    /*longhand padding*/
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+p {
+    /*Auto Margins*/
+    margin: auto;
+    color:blue;
+    /*Shorthand padding*/
+    padding: 25px 25px 25px 25px;
+    font-size: 25px;
+    line-height: 50px;
+}
