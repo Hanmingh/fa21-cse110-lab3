@@ -1,8 +1,38 @@
 /* CSS checklist */
 
+.containerflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.containergrid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    justify-items: stretch;
+}
+
+#agenda1{
+    height: 20px;
+}
+
+*#agenda2{
+    width: 20px;
+}
+
 /* Background: apply background styles to your elements */
 body {
     background-color: rgb(200,200,200); /*rgb color*/
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
 }
 
 /* Unit: units of measurement for sizing and spacing your elements */
@@ -36,9 +66,70 @@ h3 {
 p {
     /*Auto Margins*/
     margin: auto;
-    color:blue;
     /*Shorthand padding*/
     padding: 25px 25px 25px 25px;
     font-size: 25px;
     line-height: 50px;
+}
+
+.p1 {
+    font-family: 'Birthstone', cursive;
+}
+
+h1, p{
+    color: blue;
+}
+
+div {
+    height: auto;
+    width: 50%;
+    max-height: 500px;
+    max-width: 500px;
+    position: static;
+}
+
+div:hover {
+    background-color: white;
+}
+
+div p {
+    background-color: rgb(228, 215, 228);
+}
+
+section > p {
+    background-color: rgb(236, 236, 191);
+}
+
+hr ~ p {
+    background-color: brown;
+}
+
+div + p {
+    background-color: rgb(113, 113, 223);
+}
+
+h2.dashed{
+    background-color: black;
+}
+
+li:hover {
+    background-color: green;
+}
+
+li:active {
+    color: blue;
+}
+
+li {
+    position: relative;
+    display: inline;
+    display: block;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+a[href="https://www.youtube.com/watch?v=prlBXBS_vPg"]{
+    background-color: gold;
 }
