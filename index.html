@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE 110 LAB2</title>
+    <title>CSE 110 LAB3</title>
     <link rel="icon" type="image/png" href="https://www.thespruceeats.com/thmb/fnF-lIfmbFhvF0JwwSfDbuWuQDM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-90053856-588b7aff5f9b5874ee534b04.jpg"/>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
     <!--- Internal CSS --->
     <style>
-        h1 {
-          color: maroon;
-        }
         /*borders*/
         h2.dashed {
             border-style: dashed;
@@ -78,15 +76,16 @@
         <label for="agenda4"> EAT ICE CREAM</label><br>
 
         <h2 class="dashed">Things that were unfinished business from last meeting</h2>
-        <div>
-            <p>Since it is the first meeting, there is no unfinished business. Everything starts new.
+        <div class = "containerflex">
+            <div></div>
+            <p class="p1">Since it is the first meeting, there is no unfinished business. Everything starts new.
             </p>
-            <p>However, IICC does expect nations can finish all required business in each meeting to ensure that there is nothing left to the next meeting.
+            <p class="p1">However, IICC does expect nations can finish all required business in each meeting to ensure that there is nothing left to the next meeting.
             </p>
         </div>
 
         <h2 class="dashed">Things that are new business that need to be talked about</h2>
-        <div>
+        <div class = "containergrid">
         <input type="checkbox" id="new1" name="new1" value="new1">
         <label for="new1"> Trade of ice cream between nations</label><br>
         <input type="checkbox" id="new2" name="new2" value="new2">
@@ -167,7 +166,7 @@
         <p>Phone: (XXX)XXX-XXXX</p>
     </details>
 
-    <fieldset>
+    <fieldset class = "containergrid">
         <legend>Arrange a Meeting in IICC</legend>
         <p><label>Meeting theme: <input type=text name="meeting.label"></label>
         <p>Meeting time:
@@ -175,9 +174,9 @@
         <button type="button">Submit</button>
     </fieldset>
 
-    <footer>
-        <span>Hanming Hu</span>,
-        <span>University of California, San Diego</span>,
+    <footer class = "containerflex">
+        <span>Hanming Hu</span>
+        <span>University of California, San Diego</span>
         <span>Octobor 1, 2021</span>
     </footer>
 </body>
